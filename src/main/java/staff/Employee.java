@@ -42,8 +42,8 @@ public abstract class Employee {
         return this.salary * raise;
     }
 
-//    public double payBonus(){
-//        double bonus = this.salary * 0.01;
-//         return bonus;
-//    }
+    public double payBonus(){
+        double bonus = this.salary * 0.01;
+         return bonus;
+    }
 }
